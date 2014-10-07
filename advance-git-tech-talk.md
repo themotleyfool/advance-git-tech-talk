@@ -106,6 +106,29 @@ $ git branch -d fix-divide-by-zero
 
 ---
 
+### Squirrel!?
+
+- Holding onto uncommitted changes without dirtying history
+- Specific to the branch
+- Multiple stashes possible, give them names
+- Can be turned into branches
+- Useful when need to pull latest without committing
+
+---
+
+### Examples
+
+Simplest form
+````sh
+$ git stash        # or git stash "name of stash"
+$ git stash pop
+````
+
+Getting latest without committing
+````sh
+$ git stash && git pull && git stash pop
+````
+
 ## Love (and Fear) Rebase
 
 ---
