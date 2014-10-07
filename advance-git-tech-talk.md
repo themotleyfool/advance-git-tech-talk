@@ -1,5 +1,5 @@
 footer: © The Motley Fool, 2014
-slidernumbers: true
+slidenumbers: true
 
 # Advanced Git
 
