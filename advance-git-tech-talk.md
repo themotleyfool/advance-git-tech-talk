@@ -81,18 +81,18 @@ difference between previous state and current state.
 ### Examples
 
 In the beginning:
-```shell
+```sh
 $ git checkout master
 $ git checkout -b fix-divide-by-zero origin/master  # descriptive branch name!
 ```
 
 While working:
-```shell
+```sh
 $ git pull
 ```
 
 In the end:
-```shell
+```sh
 $ git rebase -i
 $ git checkout master
 $ git merge -no-ff fix-divide-by-zero
