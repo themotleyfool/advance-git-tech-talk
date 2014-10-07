@@ -132,6 +132,12 @@ $ git branch -d fix-divide-by-zero
 
 ---
 
+## Would you like to play a game?
+
+#### http://pcottle.github.io/learnGitBranching/
+
+---
+
 ## Questions?
 
 ---
