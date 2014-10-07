@@ -69,8 +69,7 @@ difference between previous state and current state.
 
 - Never know how long a change will take
 - Working on multiple changes/fixes at the same time
-- Emergency work
-- Can be created after the fact, but now you have 2 problems
+- Emergency work, can be created after the fact, but now you have 2 problems
 
 ---
 
