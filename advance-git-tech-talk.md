@@ -137,6 +137,32 @@ $ git stash && git pull && git stash pop
 
 ## Releases
 
+2 Strategies
+
+1. Release Branches
+2. Master is Deployable
+
+---
+
+### Release Branches
+
+- New work lands in master
+- Each release has a branch
+- Specific commits are cherry-picked ("back-ported") into release branches as necessary
+- Tags on branches when deployed
+
+---
+
+### Master is Deployable
+
+- New work is done on feature branches
+- Feature branches not merged until passing tests and code review
+- All deployments come from master
+
+---
+
+### Doesn't matter.  Team needs to pick one and stick to it.
+
 ---
 
 ## How to Get Out of Trouble
