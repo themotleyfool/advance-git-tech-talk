@@ -151,6 +151,18 @@ $ git stash && git pull && git stash pop
 
 ---
 
+Processed used by Github to work on Github
+
+1. Create a branch
+1. Add commits
+1. Rebase -i
+1. Open a Pull Request (or ask for Code Review)
+1. Discuss/Review
+1. Merge (--no-ff)
+1. Deploy
+
+---
+
 ## Hands on Workshop
 
 #### If There is Interest
