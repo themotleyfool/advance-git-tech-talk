@@ -4,6 +4,12 @@ slidernumbers: true
 # Advanced Git
 
 ---
+## Why Go Beyond Merge?
+
+- The utility of source control is limited by the comprehensibility of the version history
+- Ultimately, using advanced git tools is about improving teamwork, collaboration, and communication
+
+---
 
 ## Good Commits
 
