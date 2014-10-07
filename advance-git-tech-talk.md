@@ -51,6 +51,7 @@ difference between previous state and current state.
 ---
 
 ## Local Branches
+### Why always working on a branch makes life easier
 
 ---
 
@@ -62,7 +63,7 @@ difference between previous state and current state.
 
 ---
 
-### Be Prepared!
+### You'll be prepared!
 
 - Never know how long a change will take
 - Working on multiple changes/fixes at the same time
@@ -71,7 +72,7 @@ difference between previous state and current state.
 
 ---
 
-### Keeping Up to Date
+### Easy to keep up-to-date!
 
 - Pull often (rebase or merge, discussed later)
 - Easier to deal with lots of small changes/conflicts, if any, daily
