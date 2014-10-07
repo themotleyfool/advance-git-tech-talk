@@ -130,8 +130,51 @@ Getting latest without committing
 ````sh
 $ git stash && git pull && git stash pop
 ````
+---
 
-## Love (and Fear) Rebase
+## Learn to Love (and Fear) Rebase
+
+---
+
+### What is a rebase, anyway?
+
+- Rewinds commits and replays them on top of target commit
+- Rewrites history to be linear, and thus more readable
+
+![inline 120%](pre-rebase.png) ![inline 120%](post-rebase.png)
+
+---
+
+### Edit history interactively with `rebase -i`
+
+- Allows you to clean up / edit / reorder commits
+- Don't have to care about local history until ready to push
+- Commit often locally and reorganize into logical commits later!
+
+---
+
+### How does it work?
+
+```sh
+$ git rebase -i <branch> <target-commit>
+```
+
+```
+pick b0073c4 Commit 2
+pick 00afbba Commit 1
+squash a9d9b7c Combine with Commit 1
+edit f647576 Commit 3
+pick 37eb65b Commit 4
+fixup 7f1a8dc Fix commit 4
+pick e142ce6 Commit 5
+```
+
+---
+
+### What's to fear?
+
+- Creates new commit SHAs, which can be dangerous/annoying => be careful if others have pulled your changes
+- Note: merge conflict "ours"/"theirs" may be counterintuitive
 
 ---
 
