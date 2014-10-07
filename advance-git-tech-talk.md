@@ -21,7 +21,7 @@ slidernumbers: true
 
 ### Not for You, for Your Coworkers
 
-- You may not be available and unreachable (another dimension, dead, etc).
+- You may be unavailable and unreachable (another dimension, dead, etc).
 - You may not work here anymore.
 - You may forget.
 
