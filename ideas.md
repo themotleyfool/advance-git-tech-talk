@@ -13,6 +13,7 @@ Deckset
     - Bad - can steal from any one of the repos
     - Good
   1. https://github.com/themotleyfool/financials/wiki/Git-Commit-Guide
+  1. http://www.confreaks.com/videos/744-rockymtnruby2011-lightning-talk-do-your-commit-messages-suck
 1. Local Branches
   1. Branches are cheap!!
   1. Never know how long something will take, just stick it on a branch
