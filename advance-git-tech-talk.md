@@ -36,6 +36,20 @@ slidernumbers: true
 
 ---
 
+### Sample Template
+
+```
+Summarize what changes do < 50 chars
+
+More detailed explanation, wrapping at ~72 chars, with an empty line between
+the "title" and the "body". Explain motivation for changes, and describe
+difference between previous state and current state.
+- Optionally with bullet points
+
+```
+
+---
+
 ## Local Branches
 
 ---
