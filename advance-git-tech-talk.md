@@ -61,6 +61,8 @@ difference between previous state and current state.
 - Edits on branch recorded as changes from branch point
 - Many branches, single working copy.
 
+![inline fill](branch.png)
+
 ---
 
 ### You'll be prepared!
