@@ -13,6 +13,23 @@ slidernumbers: true
 
 ---
 
+### Not for You, for Your Coworkers
+
+- You may not be available and unreachable (another dimension, dead, etc).
+- You may not work here anymore.
+- You may forget.
+
+---
+
+### Explain the "Why", not the "What"
+
+- Code and version control already shows *what* you did
+- Need to explain business/use case
+- Include names of people, dates, etc of justification
+- CYA!!
+
+---
+
 ## Local Branches
 
 ---
