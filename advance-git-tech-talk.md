@@ -176,6 +176,22 @@ pick e142ce6 Commit 5
 - Creates new commit SHAs, which can be dangerous/annoying => be careful if others have pulled your changes
 - Note: merge conflict "ours"/"theirs" may be counterintuitive
 
+
+---
+
+### Bonus: autosquash
+
+- To easily do a fixup or squash on an earlier commit, run:
+```
+$ git commit --fixup=<commit-to-fix>
+$ git rebase -i --autosquash <branch> <target>
+```
+- Automatically places fixup/squash commit on rebase
+- To default autosquash on interactive rebase, run:
+```
+$ git config --global rebase.autosquash=true
+```
+
 ---
 
 ## Releases
