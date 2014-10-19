@@ -57,9 +57,9 @@ difference between previous state and current state.
 
 ### Branches are cheap!
 
-- Branch entry is just reference to point in time
-- Edits on branch recorded as changes from branch point
-- Many branches, single working copy.
+- Branches are just pointers, easy to create and delete
+- Edits on branch recorded as changes from branch snapshot
+- Many branches, single working copy
 
 ![inline fill](branch.png)
 
@@ -69,7 +69,8 @@ difference between previous state and current state.
 
 - Never know how long a change will take
 - Working on multiple changes/fixes at the same time
-- Emergency work, can be created after the fact, but now you have 2 problems
+- Easy to switch to emergency work
+- Local master always reflects publicly-available code
 
 ---
 
@@ -77,6 +78,13 @@ difference between previous state and current state.
 
 - Pull often (rebase or merge, discussed later)
 - Easier to deal with lots of small changes/conflicts, if any, daily
+
+---
+
+### Easy to remove!
+
+- If and when priorities change mid-development, there's no annoying cleanup of now-irrelevant code on master
+- Delete the branch, or keep it for reference/potential code reuse--either way, the master branch is uncluttered
 
 ---
 
