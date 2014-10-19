@@ -27,10 +27,10 @@ slidenumbers: true
 
 ---
 
-### Explain the "Why", not the "What"
+### Explain what the changes DO and WHY, not what the changes ARE
 
-- Code and version control already shows *what* you did
-- Need to explain business/use case
+- Code and version control already shows *what* you changed
+- Need to explain business/use case--what problem are you solving?
 - Include names of people, dates, etc of justification
 - CYA!!
 
