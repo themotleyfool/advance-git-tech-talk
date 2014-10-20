@@ -183,6 +183,37 @@ $ git stash && git pull && git stash pop
 ![inline 120%](pre-rebase.png) ![inline 120%](post-rebase.png)
 
 ---
+### Merge vs Rebase in terms of `git pull`
+Scenario:
+
+- Your changes are commited but not pushed.
+- Changes from others commited and pushed.
+- You need to pull before you can push.
+
+---
+
+### Merge
+
+- Your changes come first and then everyone else's
+- Chronologically might be correct 
+- Repo perspective wrong
+
+![inline](merge-history-screenshot.png)
+
+---
+
+### Merge Crazy
+
+![inline](merge-history-screenshot-2.png)
+
+---
+
+### Rebase
+
+- Their changes come first and then your changes
+- Since repo is "The Truth", more accurate depection of events
+
+---
 
 ### Edit history interactively with `rebase -i`
 
