@@ -21,7 +21,7 @@ slidenumbers: true
 
 ### Not for You, for Your Coworkers
 
-- You may be unavailable and unreachable (another dimension, dead, etc).
+- You may be unavailable and unreachable (another dimension, a zombie, etc).
 - You may not work here anymore.
 - You may forget.
 
