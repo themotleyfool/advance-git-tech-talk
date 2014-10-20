@@ -202,16 +202,24 @@ Scenario:
 
 ---
 
+### Rebase
+
+- Their changes come first and then your changes
+- Since repo is "The Truth", more accurate depection of events
+
+![inline](rebase-history-screenshot-1.png)
+
+---
+
 ### Merge Crazy
 
 ![inline](merge-history-screenshot-2.png)
 
 ---
 
-### Rebase
+### Rebase Happiness
 
-- Their changes come first and then your changes
-- Since repo is "The Truth", more accurate depection of events
+![inline](rebase-history-screenshot-2.png)
 
 ---
 
