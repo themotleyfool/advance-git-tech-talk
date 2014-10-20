@@ -76,7 +76,7 @@ just in case he changes his mind.
 ### Branches are cheap!
 
 - Branches are just pointers, easy to create and delete
-- Edits on branch recorded as changes from branch snapshot
+- Edits on branch recorded as changes from branch point
 - Many branches, single working copy
 
 ![inline fill](branch.png)
