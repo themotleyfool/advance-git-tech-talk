@@ -50,6 +50,24 @@ difference between previous state and current state.
 
 ---
 
+### Example
+
+```
+App icon color change for the business
+
+Meeting with Tom Gardner on 15-Oct-1999.  He wants the icon to be 
+cornflower blue. Quote from his justification: "Efficiency is priority 
+number one, people.  Because waste is a thief"
+
+Moving the control of the icon color to a setting in the config file
+just in case he changes his mind.
+```
+
+^ Date, color, and quotes come from Fight Club.  Christian will award
+500 gold to whomever names the reference.
+
+---
+
 ## Local Branches
 ### Why always working on a branch makes life easier
 
