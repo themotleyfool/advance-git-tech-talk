@@ -118,7 +118,7 @@ $ git checkout -b fix-divide-by-zero origin/master  # descriptive branch name!
 While working:
 
 ```sh
-$ git pull
+$ git pull  # or git pull --rebase
 ```
 
 In the end:
