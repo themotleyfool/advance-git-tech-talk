@@ -6,8 +6,8 @@ slidenumbers: true
 ---
 ## Why Go Beyond Merge?
 
-- The utility of source control is limited by the comprehensibility of the version history
-- Ultimately, using advanced git tools is about improving teamwork, collaboration, and communication
+- "Those who cannot remember the past are condemned to repeat it."
+- Improves teamwork, collaboration, and communication
 
 ---
 
