@@ -109,17 +109,20 @@ just in case he changes his mind.
 ### Examples
 
 In the beginning:
+
 ```sh
 $ git checkout master
 $ git checkout -b fix-divide-by-zero origin/master  # descriptive branch name!
 ```
 
 While working:
+
 ```sh
 $ git pull
 ```
 
 In the end:
+
 ```sh
 $ git rebase -i
 $ git checkout master
@@ -147,15 +150,17 @@ $ git branch -d fix-divide-by-zero
 ### Examples
 
 Simplest form
-````sh
+
+```sh
 $ git stash        # or git stash "name of stash"
 $ git stash pop
-````
+```
 
 Getting latest without committing
-````sh
+
+```sh
 $ git stash && git pull && git stash pop
-````
+```
 ---
 
 ## Learn to Love (and Fear) Rebase
@@ -208,13 +213,15 @@ pick e142ce6 Commit 5
 ### Bonus: autosquash
 
 - To easily do a fixup or squash on an earlier commit, run:
-```
+
+```sh
 $ git commit --fixup=<commit-to-fix>
 $ git rebase -i --autosquash <branch> <target>
 ```
 - Automatically places fixup/squash commit on rebase
 - To default autosquash on interactive rebase, run:
-```
+
+```sh
 $ git config --global rebase.autosquash=true
 ```
 
