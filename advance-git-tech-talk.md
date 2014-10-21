@@ -169,6 +169,7 @@ Getting latest without committing
 ```sh
 $ git stash && git pull && git stash pop
 ```
+
 ---
 
 ## Learn to Love (and Fear) Rebase
