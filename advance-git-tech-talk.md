@@ -15,6 +15,14 @@ slidenumbers: true
 
 ---
 
+### What Makes a Good Commit
+
+- Related to just one "changeset"
+    - Easy to review
+    - Easy to revert
+
+---
+
 ## Good Commit Messages
 
 ---
