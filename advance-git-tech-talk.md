@@ -119,7 +119,6 @@ just in case he changes his mind.
 In the beginning:
 
 ```sh
-$ git checkout master
 $ git checkout -b fix-divide-by-zero origin/master  # descriptive branch name!
 ```
 
@@ -135,6 +134,7 @@ In the end:
 $ git rebase -i
 $ git checkout master
 $ git merge -no-ff fix-divide-by-zero
+$ git push
 $ git branch -d fix-divide-by-zero
 ```
 
