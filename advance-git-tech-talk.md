@@ -260,9 +260,12 @@ pick e142ce6 Commit 5
 
 ### What's to fear?
 
-- Creates new commit SHAs, which can be dangerous/annoying => be careful if others have pulled your changes
-- Note: merge conflict "ours"/"theirs" may be counterintuitive
-
+- Creates new commits
+    - Rebase already pushed commits, others will have a bad day
+- Conflicts nonintuitive
+    - "Local"/"Ours"/"Mine" is the repository
+    - "Remote"/"Theirs" is **YOUR** changes
+    - Potential for more conflicts than merge
 
 ---
 
