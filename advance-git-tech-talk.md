@@ -337,7 +337,9 @@ Processed used by Github to work on Github
 
 ## Would you like to play a game?
 
-#### http://pcottle.github.io/learnGitBranching/
+### http://pcottle.github.io/learnGitBranching/
+
+![right 50%](git-branch-game.png)
 
 ---
 
