@@ -246,15 +246,7 @@ Scenario:
 $ git rebase -i <branch> <target-commit>
 ```
 
-```
-pick b0073c4 Commit 2
-pick 00afbba Commit 1
-squash a9d9b7c Combine with Commit 1
-edit f647576 Commit 3
-pick 37eb65b Commit 4
-fixup 7f1a8dc Fix commit 4
-pick e142ce6 Commit 5
-```
+![inline](commit-reorder.png)
 
 ---
 
