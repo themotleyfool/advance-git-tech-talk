@@ -32,8 +32,9 @@ slidenumbers: true
 
 ---
 
-### Not for You, for Your Coworkers
+### Why should you care?
 
+- Not for you, for your coworkers
 - You may be unavailable and unreachable (another dimension, a zombie, etc).
 - You may not work here anymore.
 - You may forget.
