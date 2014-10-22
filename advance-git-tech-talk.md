@@ -24,6 +24,7 @@ slidenumbers: true
 - Related to just one "changeset"
     - Easy to review
     - Easy to revert
+    - Use `git add -i` or GUI tool
 
 ---
 
