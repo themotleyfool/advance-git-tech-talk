@@ -305,7 +305,7 @@ $ git config --global rebase.autosquash=true
 ### Master is Deployable
 
 - New work is done on feature branches
-- Feature branches not merged until passing tests and code review
+- Feature branches not merged until tests passed and code reviewed
 - All deployments come from master
 
 ---
