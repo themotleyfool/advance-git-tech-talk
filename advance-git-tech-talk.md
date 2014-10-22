@@ -312,12 +312,6 @@ $ git config --global rebase.autosquash=true
 
 ---
 
-## How to Get Out of Trouble
-
-### Dragons Lie Ahead
-
----
-
 ## Putting it all together
 
 ### Github Flow
