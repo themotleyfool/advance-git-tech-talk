@@ -1,7 +1,11 @@
 footer: © The Motley Fool, 2014
 slidenumbers: true
 
-# Advanced Git
+# Beyond Merge
+### Git best practices for working in a team environment
+
+#### Clara Bennett (tmfpolarbear)
+#### Christian Sauer (tmfcs)
 
 ---
 ## Why Go Beyond Merge?
