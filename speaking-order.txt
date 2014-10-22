@@ -1,0 +1,14 @@
+
+Intro - 2 	CB
+Good Commit/Good Commit Messages - 7	CB
+Local Branches - 6	CB
+
+Stash - 3	CS
+Rebase w/ Pull - 7	CS
+
+Rebase w/ -i - 4	CB
+
+Releases - 4	CS
+Github Flow - 2 CS	
+
+Outro - 3	CB
