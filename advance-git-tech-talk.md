@@ -131,7 +131,7 @@ just in case he changes his mind.
 In the beginning:
 
 ```sh
-$ git checkout -b fix-divide-by-zero origin/master  # descriptive branch name!
+$ git checkout -b fix-divide-by-zero origin/master  # descriptive name!
 ```
 
 While working:
