@@ -7,6 +7,8 @@ slidenumbers: true
 #### Clara Bennett (tmfpolarbear)
 #### Christian Sauer (tmfcs)
 
+![](backgrounds/enchanted_forest.jpg)
+
 ---
 ## Why Go Beyond Merge?
 
@@ -29,6 +31,8 @@ slidenumbers: true
 ---
 
 ## Good Commit Messages
+
+![](backgrounds/gingerbread_house.jpg)
 
 ---
 
@@ -69,8 +73,8 @@ difference between previous state and current state.
 ```
 App icon color change for the business
 
-Meeting with Tom Gardner on 15-Oct-1999.  He wants the icon to be 
-cornflower blue. His reasoning: "Efficiency is priority 
+Meeting with Tom Gardner on 15-Oct-1999.  He wants the icon to be
+cornflower blue. His reasoning: "Efficiency is priority
 number one, people.  Because waste is a thief"
 
 Moving the control of the icon color to a setting in the config file
@@ -92,6 +96,8 @@ just in case he changes his mind.
 
 ## Local Branches
 ### Why always working on a branch makes life easier
+
+![](backgrounds/unicorn.jpg)
 
 ---
 
@@ -157,6 +163,8 @@ $ git branch -d fix-divide-by-zero
 
 ## Stash
 
+![](backgrounds/squirrel.jpg)
+
 ---
 
 ### Squirrel!?
@@ -188,6 +196,8 @@ $ git stash && git pull && git stash pop
 
 ## Learn to Love (and Fear) Rebase
 
+![](backgrounds/narwhals.jpg)
+
 ---
 
 ### What is a rebase, anyway?
@@ -198,7 +208,7 @@ $ git stash && git pull && git stash pop
 ![inline 120%](pre-rebase.png) ![inline 120%](post-rebase.png)
 
 ---
-### Merge vs Rebase in terms of `git pull`
+### Merge vs Rebase on `git pull`
 Scenario:
 
 - Your changes are commited but not pushed.
@@ -210,7 +220,7 @@ Scenario:
 ### Merge
 
 - Your changes come first and then everyone else's
-- Chronologically might be correct 
+- Chronologically might be correct
 - Repo perspective wrong
 
 ![inline](merge-history-screenshot.png)
@@ -317,6 +327,8 @@ $ git config --global rebase.autosquash=true
 ## Putting it all together
 
 ### Github Flow
+
+![](backgrounds/minotaur.jpg)
 
 ---
 
