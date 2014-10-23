@@ -88,9 +88,9 @@ just in case he changes his mind.
 
 ### Bad Examples
 
-![inline](BadExample1.png)
+![inline](images/bad-example-1.png)
 
-![inline](BadExample2.png)
+![inline](images/bad-example-2.png)
 
 ---
 
@@ -107,7 +107,7 @@ just in case he changes his mind.
 - Edits on branch recorded as changes from branch point
 - Many branches, single working copy
 
-![inline fill](branch.png)
+![inline fill](images/branch.png)
 
 ---
 
@@ -205,7 +205,7 @@ $ git stash && git pull && git stash pop
 - Rewinds commits and replays them on top of target commit
 - Rewrites history to be linear, and thus more readable
 
-![inline 120%](pre-rebase.png) ![inline 120%](post-rebase.png)
+![inline 120%](images/pre-rebase.png) ![inline 120%](images/post-rebase.png)
 
 ---
 ### Merge vs Rebase on `git pull`
@@ -223,7 +223,7 @@ Scenario:
 - Chronologically might be correct
 - Repo perspective wrong
 
-![inline](merge-history-screenshot.png)
+![inline](images/merge-history-screenshot.png)
 
 ---
 
@@ -232,25 +232,25 @@ Scenario:
 - Their changes come first and then your changes
 - Since repo is "The Truth", more accurate depection of events
 
-![inline](rebase-history-screenshot-1.png)
+![inline](images/rebase-history-screenshot-1.png)
 
 ---
 
 ### Merge Crazy
 
-![inline](merge-history-screenshot-2.png)
+![inline](images/merge-history-screenshot-2.png)
 
 ---
 
 ### Look Familiar?
 
-![inline](merge-history-screenshot-2.png) ![inline](nyc-subway.jpg)
+![inline](images/merge-history-screenshot-2.png) ![inline](images/nyc-subway.jpg)
 
 ---
 
 ### Rebase Happiness
 
-![inline](rebase-history-screenshot-2.png)
+![inline](images/rebase-history-screenshot-2.png)
 
 ---
 
@@ -268,7 +268,7 @@ Scenario:
 $ git rebase -i <branch> <target-commit>
 ```
 
-![inline](commit-reorder.png)
+![inline](images/commit-reorder.png)
 
 ---
 
@@ -360,7 +360,7 @@ Processed used by Github to work on Github
 
 ### http://pcottle.github.io/learnGitBranching/
 
-![right 50%](git-branch-game.png)
+![right 50%](images/git-branch-game.png)
 
 ---
 
