@@ -242,6 +242,12 @@ Scenario:
 
 ---
 
+### Look Familiar?
+
+![inline](merge-history-screenshot-2.png) ![inline](nyc-subway.jpg)
+
+---
+
 ### Rebase Happiness
 
 ![inline](rebase-history-screenshot-2.png)
