@@ -300,6 +300,19 @@ $ git config --global rebase.autosquash=true
 
 ---
 
+## reflog, your safety net
+
+- Local to the checkout
+- Records every action git performed where data is stored
+- Gives you SHA1 to checkout/cherry-pick/merge from any point in history
+- **WARNING** 'git gc' which runs automagically periodically, cleans the reflog!
+
+---
+
+![inline](images/reflog.png)
+
+---
+
 ## Releases
 
 2 Strategies
