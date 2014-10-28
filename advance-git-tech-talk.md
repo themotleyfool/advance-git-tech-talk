@@ -318,7 +318,7 @@ $ git config --global rebase.autosquash=true
 
 ---
 
-## reflog, your safety net
+## Reflog: your safety net
 
 - Local to the checkout
 - Records every action git performed where data is stored
