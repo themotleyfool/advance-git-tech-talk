@@ -3,7 +3,7 @@ Intro                               - 2 CB
 Good Commit/Good Commit Messages    - 7 CB
 Local Branches                      - 6 CB
 
-Stash                               - 3 CS
+Stash                               - 5 CS
 Rebase w/ Pull                      - 8 CS
 
 Rebase w/ -i                        - 4 CB
@@ -15,5 +15,5 @@ Github Flow                         - 2 CS
 Outro                               - 3 CS
 
 --
-CS: 3 + 8 + 4 + 2 + 3 = 20
+CS: 5 + 8 + 4 + 2 + 3 = 22
 CB: 2 + 7 + 6 + 4 + 2 = 21

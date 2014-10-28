@@ -177,13 +177,30 @@ $ git branch -d fix-divide-by-zero
 
 ---
 
-### Examples
+![inline](images/stash.png)
 
-Simplest form
+---
+
+Save
 
 ```sh
-$ git stash        # or git stash "name of stash"
+$ git stash
+$ git stash save "descriptive name"
+```
+
+Apply
+
+```sh
 $ git stash pop
+$ git stash apply
+```
+
+---
+
+Creating a branch from stash
+
+```sh
+$ git stash branch wip-new-stuff stash@{2}
 ```
 
 Getting latest without committing
@@ -191,6 +208,7 @@ Getting latest without committing
 ```sh
 $ git stash && git pull && git stash pop
 ```
+
 
 ---
 
